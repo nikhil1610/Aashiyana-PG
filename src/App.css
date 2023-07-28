@@ -38,3 +38,9 @@
     @apply mt-5 text-lg text-gray-600 sm:text-xl  max-w-2xl;
   }
   
+  .hash-span {
+    margin-top: -100px;
+    padding-bottom: 100px;
+    display: block;
+  }
+  

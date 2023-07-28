@@ -18,9 +18,9 @@ const Hero = () => {
         </div>
         <div>
           <ul className='font-satoshi font-bold text-black text-[16px] list-none flex gap-2 cursor-pointer'>
-            <li>Services</li>
-            <li>Contact</li>
-            <li>Get Directions</li>
+            <li><a href='#services'>Services</a></li>
+            <li><a href='#contact'>Contact</a></li>
+            <li><a href='#contact'>Get Directions</a></li>
           </ul>
         </div>
       </nav>

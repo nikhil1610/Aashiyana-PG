@@ -1,19 +1,39 @@
-
 import {nsut, ddu, vegas} from "../assets"
+import { FaWifi, FaBroom, FaTrain, FaScrewdriver  } from "react-icons/fa"
+import { GiMeal } from "react-icons/gi"
+import { MdSecurity } from "react-icons/md"
+import { BiDumbbell } from "react-icons/bi"
+
 const amenities = [
     {
-    name:'wifi',
-    icon:'wifi'
+    name:'24*7 Wifi Service',
+    icon: FaWifi
     },
     {
-    name:'food',
-    icon:'food'
+    name:'3 Times Food',
+    icon: GiMeal
     },
     {
-    name:'water',
-    icon:'water'
+    name:'Daily House Keeping',
+    icon:FaBroom
     },
-    
+    {
+      name:'24*7 Security',
+      icon: MdSecurity
+    },
+    {
+      name:'Nearby Gym',
+      icon: BiDumbbell
+      },
+      {
+      name:'Metro(dist.-600m)',
+      icon: FaTrain
+      },
+      {
+      name:'Regular Maintenance',
+      icon:FaScrewdriver
+      },
+      
 ]
 
 const nearPlaces = [
@@ -43,28 +63,36 @@ const photos = [
 const testimonials = [
     {
       testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+        "This is one of the Best PG in this Area for Students of DDUC and NSUT . Food Is Awesome . This PG got Spacious Rooms Nad Common Area . The Owner of PG is also very Supportive.",
+      name: "Keshav Jha",
+      stars: 5,
+      time: "a year ago",
+    //   image: "https://randomuser.me/api/portraits/women/4.jpg",
     },
     {
       testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+        "Best PG I've ever been to, the owner is really very cooperative and considerate. The food is delicious here.",
+      name: "Isha Punia",
+      stars: 5,
+      time: "a year ago",
+    //   image: "https://randomuser.me/api/portraits/men/5.jpg",
     },
     {
       testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+        "The best thing about this PG is the disiplined and decent behaviour of the owner. Accommodation, mess and hygiene facilities are good and prices are comparatively low.",
+      name: "Rao Surjeet",
+      stars: 5,
+      time: "3 years ago",
+    //   image: "https://randomuser.me/api/portraits/women/6.jpg",
     },
-  ];
+    {
+        testimonial:
+          "If you are looking for a decent and affordable PG then this would be the best place for you. The people (staff) who are taking care of the PG are really kind and helpful",
+        name: "Renu Yadav",
+        stars: 5,
+        time: "3 years ago",
+      //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+      },
+    ];
 
 export { amenities,photos,nearPlaces,testimonials };
