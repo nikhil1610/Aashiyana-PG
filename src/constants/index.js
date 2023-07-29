@@ -26,7 +26,7 @@ const amenities = [
       icon: BiDumbbell
       },
       {
-      name:'Metro(dist.-600m)',
+      name:'Metro (dist.-600m)',
       icon: FaTrain
       },
       {

@@ -4,7 +4,7 @@ import { SectionWrapper } from '../hoc'
 
 const PlacesCard = ({name,link}) =>{
   return (
-    <div className='flex flex-col rounded-xl w-[250px]
+    <div className='flex flex-col rounded-xl sm:w-[300px] w-[80%]
     bg-slate-300'>
       <img src={link} alt="gallery_image" 
       className='w-full rounded-md h-[235px]'/>
@@ -28,7 +28,7 @@ const Places = () => {
       </div>
       <div className='gallery'>
         <h3 className='head_text'>Gallery</h3>
-        <div className='flex flex-wrap gap-2'>
+        <div className='flex flex-wrap gap-5'>
         {/* {photos.map((photo,index)=>(
           <GalleryCard key={index} {...photo}/>
         ))} */}

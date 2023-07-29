@@ -17,7 +17,7 @@ const AmenityCard = (name,Icon) =>{
 
 const Amenities = () => {
   return (
-    <div className='amenities mt-7'>
+    <div className='amenities'>
       <h3 className='head_text'>Services Provided</h3>
       <div className='mt-5 flex gap-5 flex-wrap'>
         {amenities.map((amenity,index)=>(
